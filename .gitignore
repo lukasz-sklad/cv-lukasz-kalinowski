@@ -1,3 +1,9 @@
+# Sys
+.DS_Store
+
+# Code 
+.prettierrc
+
 # Logs
 logs
 *.log

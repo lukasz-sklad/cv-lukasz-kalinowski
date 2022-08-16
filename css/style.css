@@ -1,0 +1,204 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    /* background: #97c7f7; */
+    background: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+    /* background: #5695d4; */
+    /* background: #f5f7fa; */
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
+    /* box-shadow: 6px 16px 20px 20px rgba(0, 0, 0, 0.1); */
+    box-shadow: 6px 16px 20px 20px #2b2541;
+}
+aside {
+    width: 370px;
+    background: #1a51a3;
+    /* background: #1e2939; */
+}
+.cv-photo {
+    margin: 25px 0 0 0;
+    /* margin-top: 40px; */
+}
+.header-secondary {
+    color: #ffffff;
+}
+.contact-links {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.contact-links:hover {
+    
+    color: tomato;
+}
+
+.bold {
+    font-weight: 700;
+}
+.list-secondary {
+    color: #fb6d3a;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position: inside;
+}
+.list-secondary-item {
+    color: #ffffff;
+}
+
+.list-secondary-item:hover {
+    
+    color: tomato;
+}
+
+
+.contacts-block {
+    margin-top: 51px;
+    margin-left: 40px;
+}
+
+
+.tech-skills-block {
+    margin-top: 47px;
+    margin-left: 40px;
+}
+.soft-skills-block {
+    margin-top: 56px;
+    margin-left: 40px;
+}
+main {
+    padding: 102px 88px 102px 88px;
+}
+.main-description {
+    width: 400px;
+}
+.job-title {
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+h1 {
+    cursor: cell;
+    font-size: 41px;
+    /* 45px nie mieści się */
+    font-weight: 700;
+    line-height: 55px;
+}
+h1:hover {
+    background-color: white;
+    color: tomato;
+}
+
+.description {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: 40px;
+}
+.projects {
+    width: 485px;
+    margin-bottom: 51px;
+}
+
+.list-primary {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.list-primary-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-decoration: none;
+    /* text-decoration: none; usuwa w linka podkreslenie zastosowane w classie contacts-list*/
+}
+/* Education */
+.header-primary {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 12px;
+}
+.job-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.dept-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+.job-date {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+}
+.highlight {
+    color: #fb6d3a;
+}
+/* Education */
+
+.job-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    padding-left: 20px;
+    /* list-style-position: inside; */
+    /* mocniejsze wciecie w liście drugi akapit */
+    /* list-style-position: inside; usuwasz tą linijkę */
+    /* padding-left: 0; dodajesz padding 20px orig 0 */
+}
+.black-linia {
+    color: black;
+}
+.gora-pasek {
+    background: #fb6d3a;
+    height: 25px;
+
+    padding-left: 220px;
+    width: 110%;
+
+    margin-left: -100%;
+}
+.list-hobby {
+    font-size: 14px;
+    padding-left: 0;
+}
+.acontact-links {
+    text-decoration: none;
+    color: #ffffff;
+}
+.acontact-links:hover {
+    text-decoration: none;
+    color: tomato;
+    cursor: alias;
+}
+
+
+
+.form123 {
+    font-weight: 700;
+
+    padding: 0px 90px;
+}
